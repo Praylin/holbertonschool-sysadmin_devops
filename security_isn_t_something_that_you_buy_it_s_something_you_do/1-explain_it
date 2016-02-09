@@ -1,0 +1,9 @@
+//What should you create? Using what?
+       A SSH public and private key pair must be created to connect to the sandbox servers.
+       SSH key pair can be created by the command ssh-keygen.
+
+//What should you do with the public key? How will it be used? What will it do?
+       The public key can be shared freely. The public key can be used to encrypt messages that only the private key can decrypt. Also, the public key is used to decrypt the messages which are encrypted by the private key. This helps in authentication.
+
+//What should you do with the private key? How will it be used? What will it do?
+       The private key should not be shared and must be retained. The private key is used to decrypt the messages which are encrypted by the public key. Also, the private key is used to encrypt the message that only the public key can decrypt.
