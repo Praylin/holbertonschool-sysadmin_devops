@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "obase=7;ibase=5;$STIR;$WATER+$STIR" | bc
